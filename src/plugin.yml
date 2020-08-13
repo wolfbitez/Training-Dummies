@@ -1,0 +1,14 @@
+name: TrainingDummies
+version: 1.1
+description: Allows for the creation of combat training dummies.
+author: wolfbitez
+main: com.wolfbitez.Main
+api-version: 1.16
+
+commands:
+    dummy:
+        usage: /dummy <create/remove> [dummyname]
+        description: Create or remove a training dummy
+        permission: trainingdummy.admin
+        default: op
+        permission-message: You do not have <permission>
